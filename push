@@ -1,8 +1,10 @@
 #!/bin/bash
 
-echo "---git add .---"
+echo "---add .---"
 git add . 
 
-
-echo "---git commit -m '$1'" 
+echo "---commit -m '$1'" 
 git commit -m '$1'
+
+echo " push "
+git push origin master 
