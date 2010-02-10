@@ -1,3 +1,7 @@
+html { 
+	background: #000 url("casualties_wolfpack.jpg") 50% 0 no-repeat; 
+}
+
 body {
 	color:"red";
 }
